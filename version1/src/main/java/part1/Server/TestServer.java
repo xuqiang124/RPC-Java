@@ -16,9 +16,11 @@ public class TestServer {
     public static void main(String[] args) {
         UserService userService=new UserServiceImpl();
 
+        // 注册对应的服务
         ServiceProvider serviceProvider=new ServiceProvider();
         serviceProvider.provideServiceInterface(userService);
 
+        // 新建一个rpcSever，启动后开始监听9999端口的请求
         RpcServer rpcServer=new SimpleRPCRPCServer(serviceProvider);
         rpcServer.start(9999);
     }

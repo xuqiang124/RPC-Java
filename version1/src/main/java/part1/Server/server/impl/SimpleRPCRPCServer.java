@@ -21,10 +21,13 @@ public class SimpleRPCRPCServer implements RpcServer {
     @Override
     public void start(int port) {
         try {
+            // 创建一个服务器套接字，监听端口
             ServerSocket serverSocket=new ServerSocket(port);
             System.out.println("服务器启动了");
             while (true) {
                 //如果没有连接，会堵塞在这里
+                // 等待客户端连接
+                // 有连接的时候，接受连接并且创建一个socket进行通信
                 Socket socket = serverSocket.accept();
                 //有连接，创建一个新的线程执行处理
                 new Thread(new WorkThread(socket,serviceProvide)).start();
