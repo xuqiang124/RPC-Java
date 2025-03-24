@@ -6,7 +6,6 @@ import part2.common.service.Impl.UserServiceImpl;
 import part2.common.service.UserService;
 import part2.Server.provider.ServiceProvider;
 import part2.Server.server.RpcServer;
-import part2.Server.server.impl.SimpleRPCRPCServer;
 
 /**
  * @author wxx

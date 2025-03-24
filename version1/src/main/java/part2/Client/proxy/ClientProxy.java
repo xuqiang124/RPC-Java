@@ -4,7 +4,6 @@ package part2.Client.proxy;
 import lombok.AllArgsConstructor;
 import part2.common.Message.RpcRequest;
 import part2.common.Message.RpcResponse;
-import part2.Client.IOClient;
 import part2.Client.rpcClient.RpcClient;
 import part2.Client.rpcClient.impl.NettyRpcClient;
 import part2.Client.rpcClient.impl.SimpleSocketRpcCilent;
@@ -34,6 +33,8 @@ public class ClientProxy implements InvocationHandler {
     public ClientProxy(String host,int port){
         rpcClient=new NettyRpcClient(host,port);
     }
+
+
     //jdk动态代理，每一次代理对象调用方法，都会经过此方法增强（反射获取request对象，socket发送到服务端）
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {

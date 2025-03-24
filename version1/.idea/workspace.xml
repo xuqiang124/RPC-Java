@@ -5,95 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9965864c-cbac-4894-9fcb-93103359c7c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part1/Client/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/Client/TestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part1/Client/proxy/ClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/Client/proxy/ClientProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part1/Server/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/Server/TestServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part1/Server/provider/ServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/Server/provider/ServiceProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part1/Server/server/impl/SimpleRPCRPCServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/Server/server/impl/SimpleRPCRPCServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part1/Server/server/impl/ThreadPoolRPCRPCServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/Server/server/impl/ThreadPoolRPCRPCServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part1/Server/server/work/WorkThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/Server/server/work/WorkThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part1/common/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/common/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/Client/IOClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/Client/IOClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/Client/TestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/Client/TestClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/Client/proxy/ClientProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/Client/proxy/ClientProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/Server/TestServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/Server/TestServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/Server/provider/ServiceProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/Server/provider/ServiceProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/Server/server/RpcServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/Server/server/RpcServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/Server/server/impl/SimpleRPCRPCServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/Server/server/impl/SimpleRPCRPCServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/Server/server/impl/ThreadPoolRPCRPCServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/Server/server/impl/ThreadPoolRPCRPCServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/Server/server/work/WorkThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/Server/server/work/WorkThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/common/Message/RpcRequest$RpcRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/common/Message/RpcRequest$RpcRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/common/Message/RpcRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/common/Message/RpcRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/common/Message/RpcResponse$RpcResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/common/Message/RpcResponse$RpcResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/common/Message/RpcResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/common/Message/RpcResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/common/pojo/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/common/pojo/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/common/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/common/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/common/service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/common/service/Impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part1/common/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part1/common/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/IOClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Client/IOClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/TestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Client/TestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part2/Client/IOClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part2/Client/netty/handler/NettyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part2/Client/netty/handler/NettyClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part2/Client/netty/nettyInitializer/NettyClientInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part2/Client/netty/nettyInitializer/NettyClientInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part2/Client/proxy/ClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part2/Client/proxy/ClientProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part2/Client/rpcClient/impl/NettyRpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part2/Client/rpcClient/impl/NettyRpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/IOClient.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/netty/handler/NettyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Client/netty/handler/NettyClientHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/netty/nettyInitializer/NettyClientInitializer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Client/netty/nettyInitializer/NettyClientInitializer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/netty/nettyInitializer/NettyClientInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Client/netty/nettyInitializer/NettyClientInitializer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/proxy/ClientProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Client/proxy/ClientProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/rpcClient/RpcClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Client/rpcClient/RpcClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/rpcClient/impl/NettyRpcClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Client/rpcClient/impl/NettyRpcClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/rpcClient/impl/SimpleSocketRpcCilent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Client/rpcClient/impl/SimpleSocketRpcCilent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Server/TestServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Server/TestServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Server/netty/handler/NettyRPCServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Server/netty/handler/NettyRPCServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Server/netty/nettyInitializer/NettyServerInitializer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Server/netty/nettyInitializer/NettyServerInitializer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Server/netty/nettyInitializer/NettyServerInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Server/netty/nettyInitializer/NettyServerInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Server/provider/ServiceProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Server/provider/ServiceProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Server/server/RpcServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Server/server/RpcServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Server/server/impl/NettyRPCRPCServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Server/server/impl/NettyRPCRPCServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Server/server/impl/SimpleRPCRPCServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Server/server/impl/SimpleRPCRPCServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Server/server/impl/ThreadPoolRPCRPCServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Server/server/impl/ThreadPoolRPCRPCServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Server/server/work/WorkThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Server/server/work/WorkThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/common/Message/RpcRequest$RpcRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/common/Message/RpcRequest$RpcRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/common/Message/RpcRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/common/Message/RpcRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/common/Message/RpcResponse$RpcResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/common/Message/RpcResponse$RpcResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/common/Message/RpcResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/common/Message/RpcResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/common/pojo/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/common/pojo/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/common/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/common/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/common/service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/common/service/Impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/common/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/common/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Client/TestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Client/TestClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Client/netty/handler/NettyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Client/netty/handler/NettyClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Client/netty/nettyInitializer/NettyClientInitializer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Client/netty/nettyInitializer/NettyClientInitializer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Client/netty/nettyInitializer/NettyClientInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Client/netty/nettyInitializer/NettyClientInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Client/proxy/ClientProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Client/proxy/ClientProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Client/rpcClient/RpcClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Client/rpcClient/RpcClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Client/rpcClient/impl/NettyRpcClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Client/rpcClient/impl/NettyRpcClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Client/rpcClient/impl/SimpleSocketRpcCilent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Client/rpcClient/impl/SimpleSocketRpcCilent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Client/serviceCenter/ServiceCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Client/serviceCenter/ServiceCenter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Client/serviceCenter/ZKServiceCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Client/serviceCenter/ZKServiceCenter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Server/TestServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Server/TestServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Server/netty/handler/NettyRPCServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Server/netty/handler/NettyRPCServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Server/netty/nettyInitializer/NettyServerInitializer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Server/netty/nettyInitializer/NettyServerInitializer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Server/netty/nettyInitializer/NettyServerInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Server/netty/nettyInitializer/NettyServerInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Server/provider/ServiceProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Server/provider/ServiceProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Server/server/RpcServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Server/server/RpcServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Server/server/impl/NettyRPCRPCServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Server/server/impl/NettyRPCRPCServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Server/server/impl/SimpleRPCRPCServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Server/server/impl/SimpleRPCRPCServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Server/server/work/WorkThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Server/server/work/WorkThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Server/serviceRegister/ServiceRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Server/serviceRegister/ServiceRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/Server/serviceRegister/impl/ZKServiceRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/Server/serviceRegister/impl/ZKServiceRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/common/Message/RpcRequest$RpcRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/common/Message/RpcRequest$RpcRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/common/Message/RpcRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/common/Message/RpcRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/common/Message/RpcResponse$RpcResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/common/Message/RpcResponse$RpcResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/common/Message/RpcResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/common/Message/RpcResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/common/pojo/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/common/pojo/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/common/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/common/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/common/service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/common/service/Impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part3/common/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part3/common/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../version5/krpc-api/target/classes/com/kama/pojo/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../version5/krpc-api/target/classes/com/kama/pojo/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../version5/krpc-api/target/classes/com/kama/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../version5/krpc-api/target/classes/com/kama/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../version6/krpc-api/target/classes/com/kama/pojo/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../version6/krpc-api/target/classes/com/kama/pojo/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../version6/krpc-api/target/classes/com/kama/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../version6/krpc-api/target/classes/com/kama/pojo/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +57,7 @@
     &quot;应用程序.TestServer.executor&quot;: &quot;Run&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.TestClient">
+  <component name="RunManager" selected="应用程序.part2.Client.TestClient">
     <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part1.Client.TestClient" />
       <module name="version1" />
@@ -161,8 +84,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="part2.Client.TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part2.Client.TestClient" />
+      <module name="version1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part2.Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="part2.Server.TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part2.Server.TestServer" />
+      <module name="version1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part2.Server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.part2.Client.TestClient" />
+        <item itemvalue="应用程序.part2.Server.TestServer" />
         <item itemvalue="应用程序.TestClient" />
         <item itemvalue="应用程序.TestServer" />
       </list>
@@ -186,7 +137,8 @@
       <updated>1736761843999</updated>
       <workItem from="1736761845507" duration="6000" />
       <workItem from="1742650431359" duration="2609000" />
-      <workItem from="1742803413962" duration="2795000" />
+      <workItem from="1742803413962" duration="4237000" />
+      <workItem from="1742818916720" duration="2255000" />
     </task>
     <servers />
   </component>
