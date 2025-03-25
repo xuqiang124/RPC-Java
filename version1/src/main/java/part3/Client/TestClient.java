@@ -17,6 +17,7 @@ public class TestClient {
     public static void main(String[] args) {
         ClientProxy clientProxy=new ClientProxy();
         //ClientProxy clientProxy=new part2.Client.proxy.ClientProxy("127.0.0.1",9999,0);
+        // 内部为动态服务发现，基于zookeeper
         UserService proxy=clientProxy.getProxy(UserService.class);
 
         User user = proxy.getUserByUserId(1);

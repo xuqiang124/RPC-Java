@@ -37,13 +37,17 @@ public class ZKServiceRegister implements ServiceRegister {
     public void register(String serviceName, InetSocketAddress serviceAddress) {
         try {
             // serviceName创建成永久节点，服务提供者下线时，不删服务名，只删地址
-            if(client.checkExists().forPath("/" + serviceName) == null){
-                client.create().creatingParentsIfNeeded().withMode(CreateMode.PERSISTENT).forPath("/" + serviceName);
+            if(client.checkExists().forPath("/" + serviceName) == null){ //还没有该节点，创建
+                client.create().creatingParentsIfNeeded()
+                        .withMode(CreateMode.PERSISTENT) // 使用持久化模式创建服务名节点。这个在zookeeper中长期存在，除非被显式删除。
+                        .forPath("/" + serviceName);
             }
-            // 路径地址，一个/代表一个节点
+            // 路径地址，一个/代表一个节点 ； 创建服务实例路径
             String path = "/" + serviceName +"/"+ getServiceAddress(serviceAddress);
             // 临时节点，服务器下线就删除节点
-            client.create().creatingParentsIfNeeded().withMode(CreateMode.EPHEMERAL).forPath(path);
+            client.create().creatingParentsIfNeeded()
+                    .withMode(CreateMode.EPHEMERAL) //使用临时节点创建服务实例路径，这样当服务端和zookeeper断开连接的时候会自动删除
+                     .forPath(path);
         } catch (Exception e) {
             System.out.println("此服务已存在");
         }

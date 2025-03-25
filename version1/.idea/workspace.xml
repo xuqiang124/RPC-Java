@@ -6,17 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9965864c-cbac-4894-9fcb-93103359c7c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part2/Client/IOClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part2/Client/netty/handler/NettyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part2/Client/netty/handler/NettyClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part2/Client/netty/nettyInitializer/NettyClientInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part2/Client/netty/nettyInitializer/NettyClientInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part2/Client/proxy/ClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part2/Client/proxy/ClientProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part2/Client/rpcClient/impl/NettyRpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part2/Client/rpcClient/impl/NettyRpcClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/IOClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/netty/handler/NettyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Client/netty/handler/NettyClientHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/netty/nettyInitializer/NettyClientInitializer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Client/netty/nettyInitializer/NettyClientInitializer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/netty/nettyInitializer/NettyClientInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Client/netty/nettyInitializer/NettyClientInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/proxy/ClientProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Client/proxy/ClientProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part2/Client/rpcClient/impl/NettyRpcClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Client/rpcClient/impl/NettyRpcClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part3/Client/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part3/Client/TestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part3/Client/serviceCenter/ServiceCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part3/Client/serviceCenter/ServiceCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part3/Client/serviceCenter/ZKServiceCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part3/Client/serviceCenter/ZKServiceCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part3/Server/serviceRegister/impl/ZKServiceRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part3/Server/serviceRegister/impl/ZKServiceRegister.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,49 +27,39 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.version1 [compile].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ziqiding/Documents/mystudy/project/RPC-Java/version1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.TestClient.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.TestServer.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.version1 [compile].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/ziqiding/Documents/mystudy/project/RPC-Java/version1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.TestClient.executor": "Run",
+    "应用程序.TestServer.executor": "Run",
+    "应用程序.part2.Client.TestClient.executor": "Run",
+    "应用程序.part2.Server.TestServer.executor": "Run",
+    "应用程序.part3.Server.TestServer.executor": "Run"
   }
-}</component>
-  <component name="RunManager" selected="应用程序.part2.Client.TestClient">
+}]]></component>
+  <component name="RunManager" selected="应用程序.part3.Client.TestClient">
     <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part1.Client.TestClient" />
       <module name="version1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="part1.Client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part1.Server.TestServer" />
-      <module name="version1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="part1.Server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +93,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="part3.Client.TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part3.Client.TestClient" />
+      <module name="version1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part3.Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="part3.Server.TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part3.Server.TestServer" />
+      <module name="version1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part3.Server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.part3.Client.TestClient" />
+        <item itemvalue="应用程序.part3.Server.TestServer" />
         <item itemvalue="应用程序.part2.Client.TestClient" />
         <item itemvalue="应用程序.part2.Server.TestServer" />
         <item itemvalue="应用程序.TestClient" />
-        <item itemvalue="应用程序.TestServer" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +148,8 @@
       <workItem from="1736761845507" duration="6000" />
       <workItem from="1742650431359" duration="2609000" />
       <workItem from="1742803413962" duration="4237000" />
-      <workItem from="1742818916720" duration="2255000" />
+      <workItem from="1742818916720" duration="5008000" />
+      <workItem from="1742909369543" duration="2170000" />
     </task>
     <servers />
   </component>
